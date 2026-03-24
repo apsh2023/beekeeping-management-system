@@ -12,6 +12,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# GitHub Pages safe mode
+safe: true
+highlighter: rouge
+
 # Exclude from processing
 exclude:
   - Gemfile
@@ -22,6 +26,8 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - Business Design Project.docx
+  - README.md
+  - DEPLOYMENT.md
 
 # Collections
 collections:
