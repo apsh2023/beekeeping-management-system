@@ -1,8 +1,8 @@
 # Site settings
 title: Beekeeping Management System
 description: Business Design Project - Data Modeling Assignment
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/beekeeping-management-system" # the subpath of your site, e.g. /blog
+url: "https://apsh2023.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

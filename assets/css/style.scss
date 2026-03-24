@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "minima";
 
 /* Custom styles for the Beekeeping Management System site */
 
@@ -106,6 +106,14 @@ table td {
 
 table tr:hover {
   background-color: #fff8e1;
+}
+
+/* Navigation improvements */
+.site-nav .trigger {
+  background-color: #ffffff;
+  border: 1px solid #f4a623;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 /* Responsive design */
