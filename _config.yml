@@ -1,0 +1,36 @@
+# Site settings
+title: Beekeeping Management System
+description: Business Design Project - Data Modeling Assignment
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Business Design Project.docx
+
+# Collections
+collections:
+  sections:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+header_pages:
+  - about.md
+  - business-design.md
+  - data-model.md
